@@ -2,8 +2,8 @@ export declare const state: {
   isShutdown: boolean;
 };
 interface Logger {
-  info: (msg: string) => void;
-  error: (error: Error) => void;
+  info: (message: string, payload?: any) => void;
+  error: (message: string, payload?: any) => void;
 }
 export declare const watchShutdown: (
   shutdownFn: () => Promise<void>,
