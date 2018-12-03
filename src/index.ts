@@ -1,8 +1,8 @@
 export const state = { isShutdown: false };
 
 interface Logger {
-  info: (msg: string) => void;
-  error: (error: Error) => void;
+  info: (message: string, payload?: any) => void;
+  error: (message: string, payload?: any) => void;
 }
 
 export const watchShutdown = (
@@ -22,7 +22,7 @@ export const watchShutdown = (
       process.exit();
     } catch (e) {
       if (logger) {
-        logger.error(e);
+        logger.error('Shutdown error', e);
       }
       process.abort();
     }

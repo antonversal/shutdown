@@ -1,6 +1,6 @@
 {
   "name": "@join-com/shutdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "watches a server for shutdown",
   "main": "lib/index.js",
   "scripts": {
