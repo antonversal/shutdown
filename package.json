@@ -1,6 +1,6 @@
 {
   "name": "@join-com/shutdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "watches a server for shutdown",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/join-com/process-env.git"
+    "url": "https://github.com/join-com/shutdown.git"
   },
   "keywords": [
     "env",
@@ -34,9 +34,9 @@
   "author": "JOIN team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/join-com/proccess-env/issues"
+    "url": "https://github.com/join-com/shutdown/issues"
   },
-  "homepage": "https://github.com/join-com/proccess-env#readme",
+  "homepage": "https://github.com/join-com/shutdown#readme",
   "devDependencies": {
     "@types/node": "^10.12.11",
     "husky": "^1.2.0",
